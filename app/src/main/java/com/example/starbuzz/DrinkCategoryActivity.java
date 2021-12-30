@@ -49,7 +49,7 @@ public class DrinkCategoryActivity extends AppCompatActivity{
         Toast toast = Toast.makeText(this, "Database unavailable", Toast.LENGTH_SHORT);
         toast.show();
     }
-        
+
         //Create the listener
         AdapterView.OnItemClickListener itemClickListener =
                 new AdapterView.OnItemClickListener(){
